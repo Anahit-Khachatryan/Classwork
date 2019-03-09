@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App {
+    text-align: unset;
+}
+
+img {
+    max-width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+.text-center {
+    text-align: center;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+.container {
+    padding: 0 15px;
+}
+.topHeader {
+    background:rgb(27, 70, 100);
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.topHeader ul {
+   float: right;
+}
+.topHeader ul  li {
+    float: left;
+ }
+.topHeader ul li a {
+  color: #fff;
+  padding: 0 15px;
+}
